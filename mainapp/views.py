@@ -11,4 +11,5 @@ def products(request):
    
     
 def contact(request):
-    return render(request, "contacts.html")
+    return render(request, "mainapp/contact.html")
+    

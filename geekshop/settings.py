@@ -120,7 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# добавили папку static в путь к папкам с дефолтными папками
+# добавили static в путь к папкам с дефолтными папками
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
